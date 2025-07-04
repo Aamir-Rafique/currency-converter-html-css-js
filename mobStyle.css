@@ -1,0 +1,66 @@
+@media (max-width: 721px) {
+
+h1 {
+    font-size: 2.5vmax;
+}
+
+h5 {
+    font-size: 1.9vmax;
+}
+
+body {
+    background-color: rgb(15, 39, 124);
+    display: flex;
+    justify-content: center;
+    }
+
+form {
+    margin-top: 25vh;
+    width: 92%;
+    padding: 1vmax;
+    gap: 3.5vmax;
+}
+
+input {
+    width: 75%;
+    font-size: 1.8vmax;
+    padding: 20px;
+}
+
+.dropdown {
+    display: flex;
+    gap: 3.5vmax;
+}
+
+.dropdown i {
+    font-size: 1.8vmax;
+}
+
+
+.select-container {
+}
+
+.select-container img {
+    width: 50%;
+}
+
+select {
+    font-size: 2vmax;
+    padding: 7px;
+}
+
+
+
+button {
+    font-size: 1.7vmax;
+}
+
+button:active {
+    background-color: rgb(3, 21, 161);
+}
+
+#result {
+    font-size: 1.8vmax;
+}
+    
+}
