@@ -4,17 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>💲 Currency Converter</title>
-    <link rel="stylesheet" href="style.css"> 
-    <link rel="stylesheet" href="mobStyle.css"> 
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobStyle.css">
+    <link rel="icon" href="icons/currencyconvertericon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
+    <nav>
+        <a href="#" id="logo-link">
+            <img title="Aamir Rafique" src="img/logo-1.webp" alt="Logo" id="logo-img" />
+        </a>
+    </nav>
+
     <form class="container">
-        <h1 class="title">Currency Converter</h1>
+        <h1 class="title">💲 Currency Converter</h1>
         <input type="text" name="" id="base_currency_input" placeholder="Enter Amount here">
         <div class="dropdown">
             <div class="from">
@@ -35,9 +42,18 @@
                 </div>
             </div>
         </div>
-        <p id="latest_rates_display"></p>
+        <p id="latest_rates_display">....</p>
         <button>Get Exchange Rate</button>
     </form>
+
+    <footer class="mt-6 text-sm text-center text-gray-700">
+        <p> Made with ❤️ by <a href="https://github.com/Aamir-Rafique" target="_blank"
+                class="text-blue-600 hover:underline">Aamir Rafique</a> </p>
+        <p>
+        <p>
+            Currency data provided by <a href="https://app.currencyapi.com/" target="_blank" class="">CurrencyAPI</a>
+        </p>
+    </footer>
 </body>
 <script src="codes.js"></script>
 <script src="script.js"></script>

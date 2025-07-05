@@ -1,66 +1,128 @@
 @media (max-width: 721px) {
 
-h1 {
-    font-size: 2.5vmax;
-}
 
-h5 {
-    font-size: 1.9vmax;
-}
-
-body {
-    background-color: rgb(15, 39, 124);
-    display: flex;
-    justify-content: center;
+    h1 {
+        font-size: 2vmax;
     }
 
-form {
-    margin-top: 25vh;
-    width: 92%;
-    padding: 1vmax;
-    gap: 3.5vmax;
-}
+    h5 {
+        font-size: 1.26vmax;
+    }
 
-input {
-    width: 75%;
-    font-size: 1.8vmax;
-    padding: 20px;
-}
+    body {
+        height: 100vh;
+        background: linear-gradient(to right, rgb(188, 12, 227), rgb(11, 174, 228));
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
-.dropdown {
-    display: flex;
-    gap: 3.5vmax;
-}
+    i {
+        color: rgb(6, 0, 185);
+    }
 
-.dropdown i {
-    font-size: 1.8vmax;
-}
+    nav {
+        height: 5vmax;
+        width: 100%;
+        background: linear-gradient(to right, #344dba, #764ba2);
+        padding-top: 12px;
+        position: fixed;
+        top: 0;
+        z-index: 20;
+        text-align: center;
+    }
 
-
-.select-container {
-}
-
-.select-container img {
-    width: 50%;
-}
-
-select {
-    font-size: 2vmax;
-    padding: 7px;
-}
+    nav #logo-img {
+        width: 6vmax;
+    }
 
 
 
-button {
-    font-size: 1.7vmax;
-}
 
-button:active {
-    background-color: rgb(3, 21, 161);
-}
+    form {
+        height: auto;
+        width: 30vmax;
+        border: 2px solid black;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 2vmax;
+        gap: 2vmax;
+        align-items: center;
+        background-color: rgba(237, 254, 253, 0.625);
+        box-shadow: 0px 11px 13px rgba(0, 0, 0, 0.5);
+    }
 
-#result {
-    font-size: 1.8vmax;
-}
-    
+    input {
+        width: 75%;
+        font-size: 2vmax;
+        padding: 10px;
+        text-align: center;
+        border-radius: 3px;
+        outline: none;
+    }
+
+    input:focus {
+        border: 2px solid #2196f3;
+        box-shadow: 0 2px 2px 2px #2196f3;
+    }
+
+    .dropdown {
+        display: flex;
+        gap: 3vmax;
+        text-align: center;
+        align-items: center;
+    }
+
+    .dropdown i {
+        font-size: 1.5vmax;
+    }
+
+
+    .select-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* padding: 5px 0; */
+        border: 2px solid gray;
+        border-radius: 10px;
+    }
+
+    .select-container img {
+        width: 30%;
+    }
+
+    select {
+        font-size: 1.5vmax;
+        padding: 7px;
+        border: none;
+        background-color: transparent;
+        outline: none;
+    }
+
+    button {
+        font-size: 1.3vmax;
+        padding: 8px 16px;
+        border-radius: 5px;
+        background-color: rgb(36, 125, 208);
+        color: white;
+        cursor: pointer;
+        border: none;
+    }
+
+    button:hover {
+        background-color: rgb(8, 31, 209);
+    }
+
+    #latest_rates_display {
+        font-size: 1.5vmax;
+        font-weight: 500;
+        color: #1f026e;
+    }
+
+    footer p {
+        font-size: 1.3vmax;
+    }
 }
