@@ -42,11 +42,10 @@ nav #logo-img {
 }
 
 
-
-
 form {
+    margin-top: 2vmax;
     height: auto;
-    width: 30vmax;
+    width: 40%;
     border: 2px solid black;
     border-radius: 10px;
     display: flex;
